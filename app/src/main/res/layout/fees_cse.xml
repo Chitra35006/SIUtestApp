@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialolog_frame"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEES FOR B.SC.ENGG. IN CSE (DAY)(4 YEARS)"
+            android:textColor="#269389"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TableLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="390dp"
+                    android:layout_height="30dp"
+                    android:text="Programmes Fees Structure"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:background="@drawable/header_cell"
+                    android:gravity="center"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <!-- Row - (0) -->
+
+            <!-- Row - (1) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Registration x 8 Semester"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="165dp"
+                    android:layout_height="30dp"
+                    android:text="Semester Fees x 8 Semester"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="30dp"
+                    android:text="Total Fees"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (2) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="14000x 8"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="165dp"
+                    android:layout_height="30dp"
+                    android:text="17,000 x 8"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="30dp"
+                    android:text="2,48,000"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </LinearLayout>
+
+
+</LinearLayout>

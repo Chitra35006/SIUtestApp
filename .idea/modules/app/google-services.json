@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "753098856904",
+    "firebase_url": "https://csez10.firebaseio.com",
+    "project_id": "csez10",
+    "storage_bucket": "csez10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753098856904:android:4898d0132becf407f508fd",
+        "android_client_info": {
+          "package_name": "com.example.siu2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753098856904-m30dmh2csfuadsms5d2hlhmgp3p9seiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siu2",
+            "certificate_hash": "05d618eb11b178c47a55759064ee3e0f40752368"
+          }
+        },
+        {
+          "client_id": "753098856904-h54had54oj1npdoueosh2bun60ifqvee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siu2",
+            "certificate_hash": "a5531c2d7e1792dc5aff90dde1620b2d4ba5be5e"
+          }
+        },
+        {
+          "client_id": "753098856904-ds2g198sd2mtoc2m49mc7n0lvsnimi6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACtS8ZIAg0ktKvjIiJcJ0Z_EOPgRhGouA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753098856904-ds2g198sd2mtoc2m49mc7n0lvsnimi6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialolog_frame"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fourth Year First Semester"
+            android:textColor="#269389"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <!-- Row - (0) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="Course Code"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:background="@drawable/header_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Course Title"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:background="@drawable/header_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="Credits"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:background="@drawable/header_cell"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (1) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-425"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Digital Signal Processing"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="3.0"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (2) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-426"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Digital Signal Processing Lab"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="1.5"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (3) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-403"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Compiler Design"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="3.0"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (4) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-404"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Compiler Design Lab"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="1.5"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (5) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-421"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Computer Network"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="3.0"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (6) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-422"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Computer Network Lab"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="1.5"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (7) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-4**"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Option"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="3.0"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (8) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="CSE-4**"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text="Option Lab"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="1.5"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell_2"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+            <!-- Row - (9) -->
+            <TableRow>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="Total"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:text=" "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="18.50"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:background="@drawable/basic_cell"
+                    android:gravity="center"/>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </LinearLayout>
+
+
+</LinearLayout>

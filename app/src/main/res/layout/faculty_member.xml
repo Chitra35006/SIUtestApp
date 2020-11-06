@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/er"
+    tools:context=".FacultyMember">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#6BD1C5"
+            app:cardElevation="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Faculty Member"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--Row (1) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Column (1) -->
+            <androidx.cardview.widget.CardView
+                    android:layout_width="155dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="11dp"
+                    app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/rishi_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Prof. Rishi Kesh Ghose"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Dean"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <!--Column (2) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="11dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/awal_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Mr. Abdul Awal Ansary"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Head"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <!--Row (2) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Column (1) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="11dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/sa_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Mr. Sushanta Acharjee"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Assistant Professor"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <!--Column (2) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="11dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/rrc_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Mr. Rajarshi Roy Chowdhury"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Senior Lecturer"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <!--Row (3) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Column (1) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="11dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/rajib_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Mr.Abdullah Rajib"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Lecturer"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <!--Column (2) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="11dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/asif_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="M.A.G. Asif"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Lecturer"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <!--Row (4) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Column (1) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="11dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/jaha_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Md. Umor Faruk Jahangir"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Teaching Assistant"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <!--Column (2) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="11dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:background="@drawable/ishtakur_sir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Mohammod Ishtakur Rahman"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#50AA9F"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:text="Teaching Assistant"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
